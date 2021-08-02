@@ -74,9 +74,9 @@ hr {
   position: relative;
   padding: 35px 25px;
 
-  max-width: 229px;
+  max-width: 179px;
   width: 100%;
-  height: 627px;
+  height: 557px;
 }
 
 .gallery-img__slider-small .slick-track {
@@ -103,7 +103,7 @@ hr {
   height: 48px;
   border-radius: 50%;
   z-index: 10;
-  margin: -10px 65px;
+  margin: -10px 66px;
 }
 
 .gallery-img__slider-small .slick-arrow.slick-prev {
