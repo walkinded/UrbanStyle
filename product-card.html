@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <title>Карточка товара</title>
+</head>
+<body>
+  <section class=""></section>
+
+  <section class="product-card">
+    <div class="wrapper">
+
+      <div class="product-card__title">
+        <h2>Madera бежевый 25х60 Global tile, плитка облицовочная</h2>
+      </div>
+
+      <div class="main-info">
+
+        <div class="main-info__gallery-img">
+          <div class="gallery-img__slider-small">
+            
+            <div class="slider-small__item">
+              <img src="img/gallery/img-s-1.jpg" alt="">
+            </div>
+
+            <div class="slider-small__item">
+              <img src="img/gallery/img-s-1.jpg" alt="">
+            </div>
+
+            <div class="slider-small__item">
+              <img src="img/gallery/img-s-1.jpg" alt="">
+            </div>
+
+            <div class="slider-small__item">
+              <img src="img/gallery/img-s-1.jpg" alt="">
+            </div>
+
+            <div class="slider-small__item">
+              <img src="img/gallery/img-s-1.jpg" alt="">
+            </div>
+
+            <div class="slider-small__item">
+              <img src="img/gallery/img-s-1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="main-info__desc">
+          <div class="desc__header">
+            <div class="header__in-stock">
+              <div class="in-stock__circle-color"></div>
+              <span>в наличии</span>
+            </div>
+            <div class="header__r-side">
+              <div class="r-side__is-new">
+                <span>новинка</span>
+              </div>
+              <div class="r-side__discount">
+                <span>-10%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="desc__price">
+            <table>
+              <tr>
+                <td>Артикул:</td>
+                <td>10100000541</td>
+              </tr>
+              <tr>
+                <td>Производитель:</td>
+                <td>Global Tile</td>
+              </tr>
+
+              <tr>
+                <td>Коллекция:</td>
+                <td>Montblanc</td>
+              </tr>
+            </table>
+            <div class="price__meter-squared">
+              <div class="meter-squared__discount">
+                <p>Цена:</p>
+                <span>12 206 ₽</span>
+              </div>
+              <div class="meter-squared">
+                <p><strong> 1 115 ₽</strong>/м2</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="buy-block">
+            <div class="buy-block__item">
+              <div class="counter-block">
+                <p>Кол-во, шт:</p>
+                <div class="counter">
+                  <div class="counter__btn-minus-count">-</div>
+                  <input type="text" name="quantity" value="1" size="2" id="input-quantity" class="form-control">
+                  <div class="counter__btn-plus-count">+</div>
+                </div>
+              </div>
+  
+              <div class="counter-block">
+                <p>Объем, м2</p>
+                <div class="counter">
+                  <div class="counter__btn-minus-count">-</div>
+                  <input type="text" name="quantity" value="0,1897" size="2" id="input-quantity" class="form-control" onkeypress="cislo()">
+                  <div class="counter__btn-plus-count">+</div>
+                </div>
+              </div>
+            </div>
+
+            <hr class="hr-margin">
+
+            <div class="buy-block__item">
+              <div class="total-price">
+                <p>Общая стоимость:</p>
+                <a href="#">Нашли дешевле?</a>
+              </div>
+
+              <div class="total-price__sum">
+                <p>12 206 ₽</p>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="btns-box">
+            <a href="#" class="btns-box__fill">
+              <img src="img/icon/wallet-icon.svg" alt="">
+              <p>купить в один клик</p>
+            </a>
+            <a href="#" class="btns-box__border">
+              <img src="img/icon/add-icon.svg" alt="">
+              <p>В КОРЗИНУ</p>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <script src="libs/jquery/dist/jquery.min.js"></script>
+  <script src="libs/slick/slick.min.js"></script>
+  <script src="js/slider.js"></script>
+
+</body>
+</html>
