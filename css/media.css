@@ -5,15 +5,73 @@
   }
 }
 
-@media all and (max-width: 1320px) {}
+@media all and (max-width: 1320px) {
+  .gallery-img__slider-big {
+    max-width: 516px;
+  }
 
-@media all and (max-width: 1280px) {}
+  .slider-big__item  {
+    max-width: 616px;
+    width: 100%;
+    height: 627px;
+  }
+}
 
-@media all and (max-width: 1200px) {}
+@media all and (max-width: 1280px) {
+  .slider-big__item  {
+    height: 490px;
+  }
+}
+
+@media all and (max-width: 1250px) {
+  .gallery-img__slider-big,
+  .slider-big__item {
+    max-width: 450px;
+    width: auto;
+    height: 490px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .gallery-img__slider-big,
+  .slider-big__item {
+    max-width: 350px;
+    width: auto;
+    height: 490px;
+  }
+  .gallery-img__slider-small {
+    max-width: 130px;
+  }
+}
 
 @media all and (max-width: 1024px) {
   .wrapper {
     padding: 0 10px;
+  }
+
+  .main-info {
+    justify-content: inherit;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-info__desc {
+    max-width: 100%;
+    width: 100%;
+    margin: 20px 0px 0px;
+  }
+
+  .main-info__gallery-img {
+    max-width: 100%;
+    width: max-content;
+  }
+
+  .gallery-img__slider-big,
+  .slider-big__item {
+    max-width: 490px;
+    width: auto;
+    height: 490px;
+    overflow: hidden;
   }
 }
 
@@ -21,15 +79,65 @@
 
 @media all and (max-width: 850px) {}
 
-@media all and (max-width: 768px) {}
+@media all and (max-width: 768px) {
 
-@media all and (max-width: 640px) {}
+}
+
+@media all and (max-width: 640px) {
+  .gallery-img__slider-small {
+    display: none;
+  }
+  .gallery-img__slider-big,
+  .slider-big__item  {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    overflow: initial;
+  }
+}
 
 @media all and (max-width: 550px) {}
 
 @media all and (max-width: 540px) {}
 
-@media all and (max-width: 480px) {}
+@media all and (max-width: 480px) {
+  .desc__price {
+    flex-direction: column;
+  }
+
+  .buy-block {
+    margin-top: 30px;
+  }
+
+  .price__meter-squared {
+    margin: 20px auto 0px;
+  }
+
+  .buy-block__item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .item_position {
+    flex-direction: row;
+  }
+
+  .counter-block {
+    margin: 10px 0px;
+  }
+
+  .btns-box a {
+    font-size: 11px;
+  }
+
+  .btns-box__fill {
+    max-width: initial;
+    width: 60%;
+  }
+  .btns-box__border {
+    max-width: initial;
+    width: 40%;
+  }
+}
 
 @media all and (max-width: 440px) {}
 
