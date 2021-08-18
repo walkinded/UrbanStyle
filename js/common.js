@@ -3,6 +3,7 @@ $(document).ready(function(){
   $('.desc-tab_content:first').show();
   $('.desc-tabs li:first').addClass('active');
   $('.desc-tabs li').click(function(event) {
+    event.preventDefault();
     $('.desc-tabs li').removeClass('active');
     $(this).addClass('active');
     $('.desc-tab_content').hide();
